@@ -1,2 +1,2 @@
-# Openclaw_skills_sallyxie
+# Openclaw_skills_by_sallyxie
 Useful Openclaw skills for beginners
