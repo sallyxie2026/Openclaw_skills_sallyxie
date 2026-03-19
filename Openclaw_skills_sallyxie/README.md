@@ -33,6 +33,18 @@ Highlights:
 - supports custom duration
 - bilingual skill guidance
 
+#### `video-to-srt`
+
+Converts a local video or audio file into a timecoded `SRT` subtitle file.
+
+Highlights:
+
+- local low-cost subtitle workflow
+- outputs standard `SRT`
+- suitable for editors that support subtitle import
+- supports language selection
+- supports larger models when higher accuracy is needed
+
 ## 中文
 
 这个仓库收录了一些可复用的 OpenClaw skills。
@@ -65,3 +77,15 @@ Highlights:
 - 支持自定义开始时间
 - 支持自定义时长
 - 提供中英双语说明
+
+#### `video-to-srt`
+
+这个 Skills 可以把本地视频或音频文件转换成带时间轴的 `SRT` 字幕文件。
+
+特点：
+
+- 本地低成本字幕方案
+- 输出标准 `SRT`
+- 适合导入支持字幕文件的编辑工具
+- 支持语言选择
+- 需要更高准确率时可切换更大模型
