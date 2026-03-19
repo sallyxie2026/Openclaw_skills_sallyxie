@@ -43,8 +43,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--language",
-        default="zh",
-        help="Language code. Use auto for mixed or unknown audio. Default: zh",
+        default="auto",
+        help="Language code. Use auto for mixed or unknown audio. Default: auto",
     )
     parser.add_argument(
         "--device",

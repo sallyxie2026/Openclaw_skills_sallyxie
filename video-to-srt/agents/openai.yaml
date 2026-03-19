@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video to SRT"
+  short_description: "Turn local media into timecoded SRT subtitles"
+  default_prompt: "Use $video-to-srt to convert a local video or audio file into a timecoded SRT subtitle file with bilingual Chinese-English guidance."

@@ -66,11 +66,11 @@ def convert_to_gif(
     print("Converting...")
 
     try:
-        subprocess.run(cmd, capture_output=True, text=True, check=True)
+        subprocess.run(cmd, check=True)
         print("Conversion succeeded.")
         return True
     except subprocess.CalledProcessError as e:
-        print(f"Conversion failed: {e.stderr}")
+        print(f"Conversion failed with exit code {e.returncode}.")
         return False
 
 
